@@ -10,6 +10,7 @@ body {
   flex-wrap: wrap;
   gap: 0px;
   margin-top: 20px;
+  border: 2px solid black;
 }
 
 button {
@@ -26,7 +27,9 @@ button {
   display: flex;
   align-items: center;
   justify-content: right;
-  font: 50px Arial;
+  font: 50px monospace;
+  padding-right: 5px;
+  box-sizing: border-box;
 }
 
 .regular-button {
