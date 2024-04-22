@@ -2,25 +2,31 @@ body {
   background-color: darkgrey;
   display: flex;
   justify-content: center;
+  height: 100%;
 }
 
-.calculator-container {
+#calculator-container {
   width: 400px;
   display: flex;
   flex-wrap: wrap;
   gap: 0px;
   margin-top: 20px;
   border: 2px solid black;
+  border-radius: 6px;
+  background-color: rgb(24, 24, 26);
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 button {
   height: 100px;
   font: 40px Arial;
+  border-radius: 60px;
 }
 
 #display {
   width: 400px;
-  /* text-align: right; */
   background-color: #000000;
   color: #ffffff;
   height: 100px;
@@ -29,7 +35,9 @@ button {
   justify-content: right;
   font: 50px monospace;
   padding-right: 5px;
-  box-sizing: border-box;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  /* box-sizing: border-box; */
 }
 
 .regular-button {
